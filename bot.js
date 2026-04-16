@@ -168,7 +168,7 @@ async function handleMessage(senderPsid, text) {
 async function sendMessage(recipientId, text) {
   try {
     await fetch(
-      `https://graph.facebook.com/v18.0/me/messages?access_token=${FB_PAGE_ACCESS_TOKEN}`,
+      `https://graph.facebook.com/v18.0/me/messages?access_token=${EAADaqaDCqZAMBRBATmhVFHaUGC4ZCr0wBQ8tZA8y1FzPEFAcjdDiUZCMoceDwCAw5cRJWhWq7QthoDU4uipiVODYAIZCJ5KFQN9vRqZA7R9FaRZA0mq8h1RfujByOfZCkjCQeOuDSRYpeoQeNDtv3dwKoBdQCXJmV61aK8xFiQPN62Ek2YIppLhEE5xkqgbwc1zobC0WexNmK2Sn1lHntMuk9Xq97FA9HQuRztemIZApUVZBXIkfNt4g8SJtG8oymbj2TIcevsOLDvYZA1lqcuZBM4xN7sjbk7IRKGtjH3Cqi2jaK69cP7yErIHZAcq8GMOR5TZBhUWSQeq4AZAmBvNZCwZDZD}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
